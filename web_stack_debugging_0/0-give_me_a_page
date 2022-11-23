@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# Script that turns on an Apache Server
-service apache2 start
+#Getting Apache running on the container, returns a page
+#contains HelloHolberton
+
+sudo /etc/init.d/apache2 restart
