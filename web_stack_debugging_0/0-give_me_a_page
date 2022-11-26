@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#Getting Apache running on the container, returns a page
+#When Apache is started on the container, a page is produced.
 #contains HelloHolberton
 sudo service apache2 restart
